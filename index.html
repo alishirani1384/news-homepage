@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | News homepage</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <img src="./assets/images/logo.svg" alt="logo" class="logo" />
+        <ul class="nav-links">
+          <li>Home</li>
+          <li>New</li>
+          <li>Popular</li>
+          <li>Trending</li>
+          <li>Categories</li>
+        </ul>
+        <img src="./assets/images/icon-menu.svg" class="menu" alt="">
+      </nav>
+    
+    <main>
+      <div class="main-container">
+        <div class="main-blog">
+          <picture>
+            <source
+              media="(max-width:800px)"
+              srcset="./assets/images/image-web-3-mobile.jpg"
+            />
+            <img src="./assets/images/image-web-3-desktop.jpg" alt="web3" />
+          </picture>
+          <div class="blog-info">
+            <h1 class="blog-title">The Bright Future of Web 3.0?</h1>
+            <div class="blog-read">
+              <p class="blog-content">
+                We dive into the next evolution of the web that claims to put
+                the power of the platforms back into the hands of the people.
+                But is it really fulfilling its promise?
+              </p>
+              <button>Read more</button>
+            </div>
+          </div>
+        </div>
+        <div class="new">
+          <div class="new-container">
+            <h2 class="header">New</h2>
+            <div class="new-blogs">
+              <div class="new-blog">
+                <h3 class="new-title">New Hydrogen VS Electric Cars</h3>
+                <p class="new-content">
+                  Will hydrogen-fueled cars ever catch up to EVs?
+                </p>
+              </div>
+              <div class="new-blog">
+                <h3 class="new-title">The Downsides of AI Artistry</h3>
+                <p class="new-content">
+                  What are the possible adverse effects of on-demand AI image
+                  generation?
+                </p>
+              </div>
+              <div class="new-blog">
+                <h3 class="new-title">Is VC Funding Drying Up?</h3>
+                <p class="new-content">
+                  Private funding by VC firms is down 50% YOY.We take a look at
+                  what that means.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="top-blogs">
+          <div class="top-blog">
+            <img src="./assets/images/image-retro-pcs.jpg" alt="">
+            <div class="top-info">
+              <h2 class="num">01</h2>
+              <h3 class="top-title">Reviving Retro PCs</h3>
+              <p class="top-content">What happens when old PCs are given modern upgrades?</p>
+            </div>
+          </div>
+          <div class="top-blog">
+            <img src="./assets/images/image-top-laptops.jpg" alt="">
+            <div class="top-info">
+              <h2 class="num">02</h2>
+              <h3 class="top-title">Top 10 Laptops of 2022</h3>
+              <p class="top-content">Our best picks for various needs and budgets.</p>
+            </div>
+          </div>
+          <div class="top-blog">
+            <img src="./assets/images/image-gaming-growth.jpg" alt="">
+            <div class="top-info">
+              <h2 class="num">03</h2>
+              <h3 class="top-title">The Growth of Gaming</h3>
+              <p class="top-content">How the pandemic has sparked fresh opportunities.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    </div>
+  </body>
+</html>
